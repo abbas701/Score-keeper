@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet"type='text/css'>
+    <title>THE SCORE KEEPER</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        font-family: Nunito;
+        background-color: aqua;
+    }
+    .align{
+        font-size: 100px;
+        font-family: Nunito;
+    }
+    .aligned{
+        font-size: 150px;
+    }
+    button{
+        font-size: 45px;
+        background: green;
+        border-radius: 20%;
+        color: white;
+        font-family: Nunito;
+        color: l;
+    }
+    .red{
+        background: red;
+    }
+    input{
+        font-size: 40px;
+        background: green;
+        border-radius: 10%;
+        color: white;
+        font-family: Nunito;
+    }
+</style>
+<body>
+    <h1 class = "aligned"><span id = "p1Display">0</span> vs <span id = "p2Display">0</span></h1>
+    <p class = "align">The game is of: <span>5</span> points</p>
+    <input type="number" min = "0" placeholder = "Number of Points...">
+    <button id = "p1">Player One</button>
+    <button id = "p2">Player Two</button>
+    <button class = "red" id = "reset">Reset</button>
+
+    <script type = "text/javascript" src = 'Score keeping.js'></script>
+</body>
+</html>
